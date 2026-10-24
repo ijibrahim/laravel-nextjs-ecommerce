@@ -1,0 +1,67 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js (Admin + Frontend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# React + Vite (Admin)
+# =========================
+admin/dist/
+admin/coverage/
+
+# =========================
+# Next.js (Frontend)
+# =========================
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# =========================
+# Laravel (Backend)
+# =========================
+backend/vendor/
+backend/.phpunit.cache/
+backend/phpunit.xml.bak
+
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/testing/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Keep Laravel required placeholder files
+!backend/storage/logs/.gitignore
+!backend/storage/framework/cache/.gitignore
+!backend/storage/framework/sessions/.gitignore
+!backend/storage/framework/testing/.gitignore
+!backend/storage/framework/views/.gitignore
+!backend/bootstrap/cache/.gitignore
+
+# =========================
+# Build / Cache
+# =========================
+dist/
+build/
+coverage/
+.cache/
+.turbo/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
