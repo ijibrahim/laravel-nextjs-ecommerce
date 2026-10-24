@@ -58,7 +58,7 @@ Make sure you have installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/laravel-nextjs-ecommerce.git
+git clone https://github.com/ijibrahim/laravel-nextjs-ecommerce.git
 cd laravel-nextjs-ecommerce
 ```
 
